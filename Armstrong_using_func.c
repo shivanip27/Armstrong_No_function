@@ -8,7 +8,10 @@ main()
 	printf("Enter number:\n");
 	scanf("%d",&num);
 	sum = cubesum(num);
+	if(sum == num)
 	printf("sum=%d\n",sum);
+	else 
+		printf(Entered number is not a Armstrong number\n");
 }
 
 int cubesum(int n)
